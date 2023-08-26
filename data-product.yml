@@ -1,0 +1,18 @@
+---
+id: berlin-lor-health-and-structural-atlas
+name: Berlin LOR Health and Structural Atlas
+metadata:
+  - ownership:
+  - schema:
+description:
+input_ports:
+output_ports:
+metrics:
+  - quality:
+  - operational:
+classification:
+tags:
+  - berlin
+  - lor
+  - population
+  - health
