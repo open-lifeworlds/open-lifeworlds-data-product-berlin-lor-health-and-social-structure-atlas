@@ -52,7 +52,7 @@ def main(argv):
 
     copy_data(source_path=raw_path, results_path=workspace_path, clean=clean, quiet=quiet)
     convert_data_to_csv(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
-    # blend_data(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
+    blend_data(source_path=workspace_path, results_path=workspace_path, clean=clean, quiet=quiet)
 
 
 if __name__ == "__main__":
