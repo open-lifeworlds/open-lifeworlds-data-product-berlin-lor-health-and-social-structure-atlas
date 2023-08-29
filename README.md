@@ -52,7 +52,9 @@ See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-pr
 
 ## License
 
-Distributed under the GPLv3 License. See [LICENSE.md](./LICENSE.md) for more information.
+Source data distributed under [Creative Commons Namensnennung 3.0 Deutschland Lizenz](https://creativecommons.org/licenses/by/3.0/de/) by [Senatsverwaltung für Wissenschaft, Gesundheit, Pflege und Gleichstellung Berlin](https://www.berlin.de/sen/gesundheit/service/gesundheitsberichterstattung/gesundheit-und-sozialstruktur/).
+
+Data product distributed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/). See [LICENSE.md](./LICENSE.md) for more information.
 
 ## Contact
 
