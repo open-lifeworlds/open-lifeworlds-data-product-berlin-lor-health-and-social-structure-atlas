@@ -12,6 +12,7 @@ def load_data(source_path, results_path, clean=False, quiet=False):
             _, file_extension = os.path.splitext(file_name)
 
             if file_extension in [".geojson", ".csv", ".json"] \
+                    and "-raw" not in file_name \
                     and "berlin-lor-geodata" not in subdir \
                     and "berlin-lor-population" not in subdir:
                 subdir = subdir.replace(f"{source_path}/", "")
