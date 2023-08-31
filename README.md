@@ -6,7 +6,7 @@
     <img src="logo_with_text.png" alt="Logo" height="80">
   </a>
 
-  <h1 align="center">Open Lifeworlds Data Product - Berlin LOR health and structural atlas</h1>
+  <h1 align="center">Open Lifeworlds Data Product - Berlin LOR health and structural atlas data</h1>
 
   <p align="center">
     Data product providing Berlin LOR health and structural atlas</a>

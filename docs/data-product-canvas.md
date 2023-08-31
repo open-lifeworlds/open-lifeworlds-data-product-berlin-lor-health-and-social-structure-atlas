@@ -1,4 +1,4 @@
-# Data Product Canvas - Berlin LOR housing stock
+# Data Product Canvas - Berlin LOR health and structural atlas
 
 ## Input Ports
 
