@@ -7,7 +7,7 @@ script_path = os.path.dirname(file_path)
 
 data_path = os.path.join(script_path, "..", "..", "data")
 
-key_figure_group = "berlin-lor-health-and-structural-atlas"
+key_figure_group = "berlin-lor-health-and-social-structure-atlas"
 
 statistic_properties = [
     "health_and_social_index",

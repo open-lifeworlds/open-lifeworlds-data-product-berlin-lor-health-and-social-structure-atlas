@@ -1,15 +1,15 @@
-[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-structural-atlas)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-structural-atlas/issues)
+[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/issues)
 
 <br />
 <p align="center">
-  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-structural-atlas">
+  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas">
     <img src="logo_with_text.png" alt="Logo" height="80">
   </a>
 
-  <h1 align="center">Open Lifeworlds Data Product - Berlin LOR health and structural atlas data</h1>
+  <h1 align="center">Open Lifeworlds Data Product - Berlin LOR health and social structure atlas data</h1>
 
   <p align="center">
-    Data product providing Berlin LOR health and structural atlas</a>
+    Data product providing Berlin LOR health and social structure atlas</a>
   </p>
 </p>
 
@@ -47,7 +47,7 @@ Examples:
 
 ## Roadmap
 
-See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-structural-atlas/issues) for a list of proposed features (and
+See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/issues) for a list of proposed features (and
  known issues).
 
 ## License

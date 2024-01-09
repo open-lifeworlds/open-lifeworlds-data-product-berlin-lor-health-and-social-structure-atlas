@@ -6,7 +6,7 @@ import pandas as pd
 
 from lib.tracking_decorator import TrackingDecorator
 
-key_figure_group = "berlin-lor-health-and-structural-atlas"
+key_figure_group = "berlin-lor-health-and-social-structure-atlas"
 
 statistic_properties = [
     "health_and_social_index",

@@ -30,12 +30,12 @@ def copy_data(source_path, results_path, clean=False, quiet=False):
 
 def get_results_file_name(subdir, source_file_name):
     if source_file_name == "gssa_2022_bezirke.csv":
-        return "berlin-lor-health-and-structural-atlas-2022-00-districts-raw.csv"
+        return "berlin-lor-health-and-social-structure-atlas-2022-00-districts-raw.csv"
     if source_file_name == "gssa_2022_bezirksregionen.csv":
-        return "berlin-lor-health-and-structural-atlas-2022-00-district-regions-raw.csv"
+        return "berlin-lor-health-and-social-structure-atlas-2022-00-district-regions-raw.csv"
     if source_file_name == "gssa_2022_planungsraeume.csv":
-        return "berlin-lor-health-and-structural-atlas-2022-00-planning-areas-raw.csv"
+        return "berlin-lor-health-and-social-structure-atlas-2022-00-planning-areas-raw.csv"
     if source_file_name == "gssa_2022_prognoseraeume.csv":
-        return "berlin-lor-health-and-structural-atlas-2022-00-forecast-areas-raw.csv"
+        return "berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas-raw.csv"
     else:
         return source_file_name
