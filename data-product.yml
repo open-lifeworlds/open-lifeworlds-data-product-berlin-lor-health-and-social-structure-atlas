@@ -2,14 +2,14 @@
 id: berlin-lor-health-and-social-structure-atlas
 name: Berlin LOR Health and Social Structure Atlas
 metadata:
-  - ownership: Open Lifeworlds
-  - domain: geodata
-  - schema:
-      - health_and_social_index: health and social index
-      - employment_and_social_index: employment and social index
-      - working_life_sub_index: working life sub index
-      - social_status_sub_index: social status sub index
-      - health_sub_index: health sub index
+  ownership: Open Lifeworlds
+  domain: geodata
+  schema:
+    - health_and_social_index: health and social index
+    - employment_and_social_index: employment and social index
+    - working_life_sub_index: working life sub index
+    - social_status_sub_index: social status sub index
+    - health_sub_index: health sub index
 description: This data products provides Berlin health and social structure data on different LOR hierarchy levels
 input_ports:
   - id: berlin-lor-geodata
