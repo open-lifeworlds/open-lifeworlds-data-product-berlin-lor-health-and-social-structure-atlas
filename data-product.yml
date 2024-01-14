@@ -27,35 +27,23 @@ input_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-district-regions-from-2021/berlin-lor-district-regions-from-2021.geojson
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson
-  - id: berlin-lor-health-and-social-structure-atlas-2022-00
-    metadata:
-      name: Gesundheits- und Sozialstrukturatlas Berlin 2022
-      author: Senatsverwaltung für Wissenschaft, Gesundheit, Pflege und Gleichstellung Berlin
-      url: https://www.berlin.de/sen/gesundheit/service/gesundheitsberichterstattung/gesundheit-und-sozialstruktur/
-      license: CC-BY-3.0-Namensnennung
-      updated: 2022-03-29
-    files:
-      - https://www.berlin.de/sen/gesundheit/_assets/service/daten/gesundheits-und-sozialstrukturatlas/gssa_2022_planungsraeume.csv
-      - https://www.berlin.de/sen/gesundheit/_assets/service/daten/gesundheits-und-sozialstrukturatlas/gssa_2022_bezirksregionen.csv
-      - https://www.berlin.de/sen/gesundheit/_assets/service/daten/gesundheits-und-sozialstrukturatlas/gssa_2022_prognoseraeume.csv
-      - https://www.berlin.de/sen/gesundheit/_assets/service/daten/gesundheits-und-sozialstrukturatlas/gssa_2022_bezirke.csv
-output_ports:
   - id: berlin-lor-health-and-social-structure-atlas-csv
     metadata:
       name: Berlin LOR health and social structure atlas csv
       author: Open Lifeworlds
-      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/tree/main/data
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/tree/main/data
       license: CC-BY-4.0
       updated: 2023-10-23
     files:
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/berlin-lor-health-and-social-structure-atlas-2013-00/berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/berlin-lor-health-and-social-structure-atlas-2013-00/berlin-lor-health-and-social-structure-atlas-2013-00-districts.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/berlin-lor-health-and-social-structure-atlas-2013-00/berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/berlin-lor-health-and-social-structure-atlas-2013-00/berlin-lor-health-and-social-structure-atlas-2013-00-planning-areas.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/berlin-lor-health-and-social-structure-atlas-2022-00/berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/berlin-lor-health-and-social-structure-atlas-2022-00/berlin-lor-health-and-social-structure-atlas-2022-00-districts.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/berlin-lor-health-and-social-structure-atlas-2022-00/berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/berlin-lor-health-and-social-structure-atlas-2022-00/berlin-lor-health-and-social-structure-atlas-2022-00-planning-areas.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/main/data/berlin-lor-health-and-social-structure-atlas-2013-00/berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/main/data/berlin-lor-health-and-social-structure-atlas-2013-00/berlin-lor-health-and-social-structure-atlas-2013-00-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/main/data/berlin-lor-health-and-social-structure-atlas-2013-00/berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/main/data/berlin-lor-health-and-social-structure-atlas-2013-00/berlin-lor-health-and-social-structure-atlas-2013-00-planning-areas.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/main/data/berlin-lor-health-and-social-structure-atlas-2022-00/berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/main/data/berlin-lor-health-and-social-structure-atlas-2022-00/berlin-lor-health-and-social-structure-atlas-2022-00-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/main/data/berlin-lor-health-and-social-structure-atlas-2022-00/berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/main/data/berlin-lor-health-and-social-structure-atlas-2022-00/berlin-lor-health-and-social-structure-atlas-2022-00-planning-areas.csv
+output_ports:
   - id: berlin-lor-health-and-social-structure-atlas-geojson
     metadata:
       name: Berlin LOR health and social structure atlas geojson
@@ -89,5 +77,6 @@ classification: consumer-aligned
 tags:
   - berlin
   - lor
-  - population
+  - geodata
   - health
+  - social structure

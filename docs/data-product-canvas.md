@@ -1,11 +1,12 @@
-# Data Product Canvas - Berlin LOR health and social structure atlas
+# Data Product Canvas - Berlin LOR Health and Social Structure Atlas
 
 ## Input Ports
 
 **Input ports define the format and protocol in which data can be read (database, file, API, visualizations)**
 
-This data product uses LOR geodata provided by [Open Lifeworlds](https://github.com/open-lifeworlds) available under the
-following URLs
+This data product uses LOR geodata provided by data
+product [open-lifeworlds-data-product-berlin-lor-geodata](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata)
+published under the following URLs
 
 * [berlin-lor-districts/berlin-lor-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-districts/berlin-lor-districts.geojson)
 * [berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson)
@@ -15,9 +16,9 @@ following URLs
 * [berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-planning-areas-until-2020/berlin-lor-planning-areas-until-2020.geojson)
 * [berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-geodata/main/data/berlin-lor-planning-areas-from-2021/berlin-lor-planning-areas-from-2021.geojson)
 
-and statistical health and social structure data provided
-by [Senatsverwaltung für Wissenschaft, Gesundheit, Pflege und Gleichstellung Berlin](https://www.berlin.de/sen/gesundheit/service/gesundheitsberichterstattung/gesundheit-und-sozialstruktur/) available under the following
-URLs
+and statistical population data provided by data
+product [open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned)
+published under the following URLs
 
 * [gssa_2022_planungsraeume.csv](https://www.berlin.de/sen/gesundheit/_assets/service/daten/gesundheits-und-sozialstrukturatlas/gssa_2022_planungsraeume.csv)
 * [gssa_2022_bezirksregionen.csv](https://www.berlin.de/sen/gesundheit/_assets/service/daten/gesundheits-und-sozialstrukturatlas/gssa_2022_bezirksregionen.csv)

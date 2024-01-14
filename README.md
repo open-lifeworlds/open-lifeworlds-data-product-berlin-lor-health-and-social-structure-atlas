@@ -6,10 +6,10 @@
     <img src="logo_with_text.png" alt="Logo" height="80">
   </a>
 
-  <h1 align="center">Open Lifeworlds Data Product - Berlin LOR health and social structure atlas data</h1>
+  <h1 align="center">Open Lifeworlds Data Product - Berlin LOR Health and Social Structure Atlas</h1>
 
   <p align="center">
-    Data product providing Berlin LOR health and social structure atlas</a>
+    Consumer-aligned data product combining Berlin LOR health and social structure atlas and geodata</a>
   </p>
 </p>
 

@@ -54,7 +54,7 @@ def blend_data(source_path, results_path, clean=False, quiet=False):
 
             # Load statistics
             csv_statistics = read_csv_file(
-                os.path.join(source_path, statistics_name, f"{statistics_name}-{lor_area_type}.csv"))
+                os.path.join(source_path, "berlin-lor-health-and-social-structure-atlas-csv", f"{statistics_name}-{lor_area_type}.csv"))
 
             # Extend geojson
             extend(
