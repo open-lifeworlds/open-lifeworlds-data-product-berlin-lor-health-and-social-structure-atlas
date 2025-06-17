@@ -1,0 +1,25 @@
+---
+schema: https://opendataproducts.org/v3.1/schema/odps.yaml
+version: 3.1
+product:
+  dataHolder:
+    URL: "https://openlifeworlds.de"
+  en:
+    name: "Berlin LOR Health and Social Structure Atlas"
+    productID: "berlin-lor-health-and-social-structure-atlas"
+    valueProposition: "Combining Berlin LOR health and social structure atlas data and geodata"
+    description: "Data product combining Berlin LOR health and social structure atlas data and geodata"
+    productSeries: "Berlin Timeseries Series"
+    visibility: "public"
+    status: "active"
+    version: "1.0"
+    categories:
+      - timeseries
+    tags:
+      - Berlin
+      - health
+      - social structure
+    type: "consumer-aligned"
+    logoURL: "https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-berlin-lor-health-and-social-structure-atlas/refs/heads/main/logo-with-text.png"
+    OutputFileFormats:
+      - geojson

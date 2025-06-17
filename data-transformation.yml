@@ -1,0 +1,48 @@
+---
+attribute_groups:
+  all: &all
+    - name: health_and_social_index
+    - name: employment_and_social_index
+    - name: working_life_sub_index
+    - name: social_status_sub_index
+    - name: health_sub_index
+input_port_groups:
+  - id: berlin-lor-health-and-social-structure-atlas
+    input_ports:
+      - id: berlin-lor-health-and-social-structure-atlas-2013-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-health-and-social-structure-atlas-2013-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-health-and-social-structure-atlas-2013-00-districts.csv, attributes: *all }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.csv, source_file_prefix: case_numbers_,  attributes: *all }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.csv, source_file_prefix: case_numbers_,  attributes: *all }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.csv, source_file_prefix: case_numbers_,  attributes: *all }
+      - id: berlin-lor-health-and-social-structure-atlas-2022-00
+        files:
+        - geojson_template_file_name: berlin-lor-districts/berlin-lor-districts.geojson
+          target_file_name: berlin-lor-health-and-social-structure-atlas-2022-00-districts.geojson
+          source_files:
+            - { source_file_name: berlin-lor-health-and-social-structure-atlas-2022-00-districts.csv, attributes: *all }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.csv, source_file_prefix: case_numbers_,  attributes: *all }
+        - geojson_template_file_name: berlin-lor-district-regions-until-2020/berlin-lor-district-regions-until-2020.geojson
+          target_file_name: berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.geojson
+          source_files:
+            - { source_file_name: berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.csv, source_file_prefix: case_numbers_,  attributes: *all }
+        - geojson_template_file_name: berlin-lor-forecast-areas-until-2020/berlin-lor-forecast-areas-until-2020.geojson
+          target_file_name: berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson
+          source_files:
+            - { source_file_name: berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.csv, source_file_prefix: case_numbers_,  attributes: *all }
+
