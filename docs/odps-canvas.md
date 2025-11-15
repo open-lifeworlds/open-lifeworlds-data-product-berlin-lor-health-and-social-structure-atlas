@@ -8,13 +8,13 @@
 
 * output file formats: geojson
 * categories: timeseries
-* description: Data product combining Berlin LOR health and social structure atlas data and geodata
-* logo URL: https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-berlin-lor-health-and-social-structure-atlas/refs/heads/main/logo-with-text.png
+* description: Data product providing Berlin health and social structure data on different LOR hierarchy levels
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
 * product ID: berlin-lor-health-and-social-structure-atlas
 * product series: Berlin Timeseries Series
 * status: active
-* tags: Berlin, health, social structure
-* type: consumer-aligned
+* tags: berlin, health, social structure
+* type: source-aligned
 * value proposition: Combining Berlin LOR health and social structure atlas data and geodata
 * version: 1.0
 * visibility: public
