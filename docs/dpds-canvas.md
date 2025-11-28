@@ -20,32 +20,16 @@
 ## Interface Components
 
 ### Input Ports
-#### berlin-lor-city
-* fully qualified name: berlin-lor-city
-#### berlin-lor-district-regions-from-2021
-* fully qualified name: berlin-lor-district-regions-from-2021
-#### berlin-lor-district-regions-until-2020
-* fully qualified name: berlin-lor-district-regions-until-2020
-#### berlin-lor-districts
-* fully qualified name: berlin-lor-districts
-#### berlin-lor-forecast-areas-from-2021
-* fully qualified name: berlin-lor-forecast-areas-from-2021
-#### berlin-lor-forecast-areas-until-2020
-* fully qualified name: berlin-lor-forecast-areas-until-2020
-#### berlin-lor-planning-areas-from-2021
-* fully qualified name: berlin-lor-planning-areas-from-2021
-#### berlin-lor-planning-areas-until-2020
-* fully qualified name: berlin-lor-planning-areas-until-2020
-#### berlin-lor-matches
-* fully qualified name: berlin-lor-matches
-#### berlin-lor-health-and-social-structure-atlas-2013-00-csv
-* fully qualified name: berlin-lor-health-and-social-structure-atlas-2013-00-csv
-#### berlin-lor-health-and-social-structure-atlas-2022-00-csv
-* fully qualified name: berlin-lor-health-and-social-structure-atlas-2022-00-csv
+#### berlin-lor-geodata
+* fully qualified name: berlin-lor-geodata
+#### berlin-lor-health-and-social-structure-atlas-source-aligned
+* fully qualified name: berlin-lor-health-and-social-structure-atlas-source-aligned
 
 ### Output Ports
 #### berlin-lor-health-and-social-structure-atlas-geojson
 * fully qualified name: berlin-lor-health-and-social-structure-atlas-geojson
+#### berlin-lor-health-and-social-structure-atlas-statistics
+* fully qualified name: berlin-lor-health-and-social-structure-atlas-statistics
 
 
 ---
