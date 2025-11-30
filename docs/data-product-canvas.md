@@ -7,7 +7,7 @@
 * description: Data product providing Berlin health and social structure data on different LOR hierarchy levels
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 ## Input Ports
 
@@ -31,16 +31,16 @@ name: Berlin Lor Health And Social Structure Atlas Geojson
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/tree/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 **Files**
 
-* [berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.geojson)
-* [berlin-lor-health-and-social-structure-atlas-2013-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-districts.geojson)
-* [berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson)
-* [berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.geojson)
-* [berlin-lor-health-and-social-structure-atlas-2022-00-districts.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-districts.geojson)
-* [berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson)
+* [berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.geojson)
+* [berlin-lor-health-and-social-structure-atlas-2013-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-districts.geojson)
+* [berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson)
+* [berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.geojson)
+* [berlin-lor-health-and-social-structure-atlas-2022-00-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-districts.geojson)
+* [berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson)
 
 
 ### berlin-lor-health-and-social-structure-atlas-statistics
@@ -48,11 +48,11 @@ name: Berlin Lor Health And Social Structure Atlas Statistics
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/tree/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-statistics
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-07
 
 **Files**
 
-* [berlin-lor-health-and-social-structure-atlas-statistics.json](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-statistics/berlin-lor-health-and-social-structure-atlas-statistics.json)
+* [berlin-lor-health-and-social-structure-atlas-statistics.json](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-statistics/berlin-lor-health-and-social-structure-atlas-statistics.json)
 
 
 ## Observability
