@@ -1,14 +1,14 @@
 ---
 dataProductDescriptor: data-product-descriptor
 info:
-  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-lor-health-and-social-structure-atlas:1.0
+  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-health-and-social-structure-atlas:1.0
   name: Berlin LOR Health and Social Structure Atlas
   version: '1.0'
   domain: domain
   owner:
     id: Open Lifeworlds
     name: Open Lifeworlds
-  id: berlin-lor-health-and-social-structure-atlas
+  id: berlin-health-and-social-structure-atlas
   entityType:
   displayName: Berlin LOR Health and Social Structure Atlas
   description: Data product providing Berlin health and social structure data on different LOR hierarchy levels
@@ -18,8 +18,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-health-and-social-structure-atlas-geojson
-      fullyQualifiedName: berlin-lor-health-and-social-structure-atlas-geojson
+      id: berlin-health-and-social-structure-atlas-geojson
+      fullyQualifiedName: berlin-health-and-social-structure-atlas-geojson
       entityType:
       name: ''
       version:
@@ -31,8 +31,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-health-and-social-structure-atlas-statistics
-      fullyQualifiedName: berlin-lor-health-and-social-structure-atlas-statistics
+      id: berlin-health-and-social-structure-atlas-statistics
+      fullyQualifiedName: berlin-health-and-social-structure-atlas-statistics
       entityType:
       name: ''
       version:
@@ -58,8 +58,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-health-and-social-structure-atlas-source-aligned
-      fullyQualifiedName: berlin-lor-health-and-social-structure-atlas-source-aligned
+      id: berlin-health-and-social-structure-atlas-source-aligned
+      fullyQualifiedName: berlin-health-and-social-structure-atlas-source-aligned
       entityType:
       name: ''
       version:

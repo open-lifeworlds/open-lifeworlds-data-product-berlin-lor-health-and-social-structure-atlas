@@ -1,12 +1,12 @@
 ---
-id: berlin-lor-health-and-social-structure-atlas
+id: berlin-health-and-social-structure-atlas
 metadata:
   name: Berlin LOR Health and Social Structure Atlas
   owner: Open Lifeworlds
   description: Data product providing Berlin health and social structure data on different LOR hierarchy levels
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-crime-atlas
   license: CC-BY 4.0
-  updated: 2025-11-07
+  updated: 2025-11-09
   schema:
     - name: health_and_social_index
       description: health and social index
@@ -21,8 +21,8 @@ metadata:
 input_ports:
   - id: berlin-lor-geodata
     manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
-  - id: berlin-lor-health-and-social-structure-atlas-source-aligned
-    manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-health-and-social-structure-atlas-source-aligned/refs/heads/main/data-product-manifest.yml
+  - id: berlin-health-and-social-structure-atlas-source-aligned
+    manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-health-and-social-structure-atlas-source-aligned/refs/heads/main/data-product-manifest.yml
 transformation_steps:
   - name: Data extractor
     path: https://github.com/open-lifeworlds/open-lifeworlds-python-lib/blob/main/openlifeworlds/extract/data_extractor.py
@@ -31,53 +31,53 @@ transformation_steps:
     path: https://github.com/open-lifeworlds/open-lifeworlds-python-lib/blob/main/openlifeworlds/transform/data_blender.py
     description: blends csv data into geojson files
 output_ports:
-  - id: berlin-lor-health-and-social-structure-atlas-geojson
+  - id: berlin-health-and-social-structure-atlas-geojson
     metadata:
-      name: Berlin Lor Health And Social Structure Atlas Geojson
+      name: Berlin Health And Social Structure Atlas Geojson
       owner: Open Lifeworlds
       description:
-      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/tree/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/tree/main/data/03-gold/berlin-health-and-social-structure-atlas-geojson
       license: CC-BY 4.0
-      updated: 2025-11-07
+      updated: 2025-11-09
       schema:
     files:
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-districts.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-districts.geojson
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-geojson/berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson
-  - id: berlin-lor-health-and-social-structure-atlas-statistics
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-health-and-social-structure-atlas-geojson/berlin-health-and-social-structure-atlas-2013-00-district-regions.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-health-and-social-structure-atlas-geojson/berlin-health-and-social-structure-atlas-2013-00-districts.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-health-and-social-structure-atlas-geojson/berlin-health-and-social-structure-atlas-2013-00-forecast-areas.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-health-and-social-structure-atlas-geojson/berlin-health-and-social-structure-atlas-2022-00-district-regions.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-health-and-social-structure-atlas-geojson/berlin-health-and-social-structure-atlas-2022-00-districts.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-health-and-social-structure-atlas-geojson/berlin-health-and-social-structure-atlas-2022-00-forecast-areas.geojson
+  - id: berlin-health-and-social-structure-atlas-statistics
     metadata:
-      name: Berlin Lor Health And Social Structure Atlas Statistics
+      name: Berlin Health And Social Structure Atlas Statistics
       owner: Open Lifeworlds
       description:
-      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/tree/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-statistics
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/tree/main/data/03-gold/berlin-health-and-social-structure-atlas-statistics
       license: CC-BY 4.0
-      updated: 2025-11-07
+      updated: 2025-11-09
       schema:
     files:
-      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-lor-health-and-social-structure-atlas-statistics/berlin-lor-health-and-social-structure-atlas-statistics.json
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-health-and-social-structure-atlas/refs/heads/main/data/03-gold/berlin-health-and-social-structure-atlas-statistics/berlin-health-and-social-structure-atlas-statistics.json
 observability:
   quality:
     - name: geojson_property_completeness
       description: The percentage of geojson features that have all necessary properties
       files:
-        - name: berlin-lor-health-and-social-structure-atlas-2013-00-districts.geojson
+        - name: berlin-health-and-social-structure-atlas-2013-00-districts.geojson
           value: 100
-        - name: berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson
+        - name: berlin-health-and-social-structure-atlas-2013-00-forecast-areas.geojson
           value: 98
-        - name: berlin-lor-health-and-social-structure-atlas-2013-00-district-regions.geojson
+        - name: berlin-health-and-social-structure-atlas-2013-00-district-regions.geojson
           value: 99
-        - name: berlin-lor-health-and-social-structure-atlas-2013-00-forecast-areas.geojson
+        - name: berlin-health-and-social-structure-atlas-2013-00-forecast-areas.geojson
           value: 98
-        - name: berlin-lor-health-and-social-structure-atlas-2022-00-districts.geojson
+        - name: berlin-health-and-social-structure-atlas-2022-00-districts.geojson
           value: 100
-        - name: berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson
+        - name: berlin-health-and-social-structure-atlas-2022-00-forecast-areas.geojson
           value: 98
-        - name: berlin-lor-health-and-social-structure-atlas-2022-00-district-regions.geojson
+        - name: berlin-health-and-social-structure-atlas-2022-00-district-regions.geojson
           value: 99
-        - name: berlin-lor-health-and-social-structure-atlas-2022-00-forecast-areas.geojson
+        - name: berlin-health-and-social-structure-atlas-2022-00-forecast-areas.geojson
           value: 98
   operational:
   slas:

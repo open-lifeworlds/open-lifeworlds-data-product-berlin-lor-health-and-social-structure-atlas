@@ -1,7 +1,7 @@
 [project]
-name = "open-lifeworlds-data-product-berlin-lor-health-and-social-structure-atlas"
+name = "open-lifeworlds-data-product-berlin-health-and-social-structure-atlas"
 version = "0.1.0"
-description = "Data product combining Berlin LOR health and social structure atlas data and geodata"
+description = "Data product combining Berlin health and social structure atlas data and geodata"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

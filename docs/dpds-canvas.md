@@ -5,8 +5,8 @@
 
 ## Info
 
-* ID: berlin-lor-health-and-social-structure-atlas
-* fully qualified name: urn:dpds:openlifeworlds:dataproducts:berlin-lor-health-and-social-structure-atlas:1.0
+* ID: berlin-health-and-social-structure-atlas
+* fully qualified name: urn:dpds:openlifeworlds:dataproducts:berlin-health-and-social-structure-atlas:1.0
 * name: Berlin LOR Health and Social Structure Atlas
 * version: 1.0
 * display name: Berlin LOR Health and Social Structure Atlas
@@ -22,14 +22,14 @@
 ### Input Ports
 #### berlin-lor-geodata
 * fully qualified name: berlin-lor-geodata
-#### berlin-lor-health-and-social-structure-atlas-source-aligned
-* fully qualified name: berlin-lor-health-and-social-structure-atlas-source-aligned
+#### berlin-health-and-social-structure-atlas-source-aligned
+* fully qualified name: berlin-health-and-social-structure-atlas-source-aligned
 
 ### Output Ports
-#### berlin-lor-health-and-social-structure-atlas-geojson
-* fully qualified name: berlin-lor-health-and-social-structure-atlas-geojson
-#### berlin-lor-health-and-social-structure-atlas-statistics
-* fully qualified name: berlin-lor-health-and-social-structure-atlas-statistics
+#### berlin-health-and-social-structure-atlas-geojson
+* fully qualified name: berlin-health-and-social-structure-atlas-geojson
+#### berlin-health-and-social-structure-atlas-statistics
+* fully qualified name: berlin-health-and-social-structure-atlas-statistics
 
 
 ---
